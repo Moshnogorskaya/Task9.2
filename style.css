@@ -1,4 +1,4 @@
-body, div, span, iframe,
+body, div, span, iframe, a,
 h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, big, cite, code,
 em, img, ins, q, s, small, strong, u,
@@ -50,8 +50,8 @@ font-weight: 100;
   height: 50px;
   background: white !important;
   border-bottom: 1px solid #eff1f4;
-  font-size: 2em;
   color: gray;
+  align-items: center;
 }
 
 .form__input {
@@ -60,7 +60,7 @@ font-weight: 100;
   outline: 0;
   padding: 0 1% 0 3%;
   font-family: 'Open Sans Condensed';
-  font-size: 0.8em;
+  font-size: 1.5em;
   flex-grow: 9;
 }
 
@@ -73,6 +73,39 @@ font-weight: 100;
   background: white;
   width: 40px;
   color: red;
+  align-items: center;
   justify-content: center;
   display: none;
+  font-size: 1.6em;
 }
+
+.circle {
+  border: 1px solid #eff1f4;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin: 3%;
+}
+
+.form__output {
+  font-size: 1.5em;
+  padding: 1%;
+  flex-grow: 8;
+}
+
+.form__delete-entry {
+  color: #e8d0e5;
+  font-size: 3em;
+  padding: 3%;
+  display: none;
+  text-decoration: none;
+}
+
+.output-group {
+  display: none;
+}
+
+.output-group:hover .form__delete-entry {
+  display: flex;
+}
+

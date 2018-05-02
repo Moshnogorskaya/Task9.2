@@ -7,17 +7,23 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
+
 <body>
-  <form class='form form_grey'>
-  <h1 class='form__header form__header_pink'>Email list</h1>
-  <div class='container'>
-  <div class='form__field'>
-  <input class='form__input' placeholder='Type here to add new Email'>
- <div class='form__warning' title='Invalid Email'>⚠</div>
- </div>
-  <div class='form__output form__field'></div>
-  </div>
-  </form>
-  <script src='script.js'></script>
+    <form class='form form_grey'>
+        <h1 class='form__header form__header_pink'>Email list</h1>
+        <div class='container'>
+            <div class='form__field'>
+                <input class='form__input' placeholder='Type here to add new Email'>
+                <div class='form__warning' title='Invalid Email'>⚠</div>
+            </div>
+            <div class='form__field output-group'>
+                <div class='circle'></div>
+                <div class='form__output'></div>
+                <a href='#' class='form__delete-entry'>×</a>
+            </div>
+        </div>
+    </form>
+    <script src='script.js'></script>
 </body>
+
 </html>
