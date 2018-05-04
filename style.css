@@ -71,6 +71,7 @@ body {
   align-items: center;
   font-family: "Open Sans Condensed";
   padding-bottom: 20px;
+  min-height: 300px;
 }
 
 .form_grey {
